@@ -8,7 +8,8 @@ const Homepage({super.key});
     return Scaffold(
       appBar: AppBar(
         title: Text("Emotion tracker", style: TextStyle(
-          fontSize: 32
+          fontSize: 32,
+          fontWeight: FontWeight.bold
         )),
       ),
 
